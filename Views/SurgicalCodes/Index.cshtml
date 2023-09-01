@@ -1,0 +1,143 @@
+﻿@model IEnumerable<ICDWebApi.Models.SurgicalCode>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RecordType)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurgName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurgLaymanDesc)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EffectiveDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EndDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Sex)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AhsfInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SecondOpinionInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CosmeticSurgInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.SurgeryInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MinAge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MinAgeInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxAge)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MaxAgeInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StatusInd)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateTs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CreateUserId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateTs)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UpdateUserId)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RecordType)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurgName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurgLaymanDesc)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EffectiveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EndDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Sex)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AhsfInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SecondOpinionInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CosmeticSurgInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SurgeryInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinAge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MinAgeInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxAge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaxAgeInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StatusInd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateTs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CreateUserId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateTs)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.UpdateUserId)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

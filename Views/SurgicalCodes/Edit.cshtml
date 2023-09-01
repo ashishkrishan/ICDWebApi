@@ -1,0 +1,125 @@
+﻿@model ICDWebApi.Models.SurgicalCode
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>SurgicalCode</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IcdVersion" />
+            <input type="hidden" asp-for="SurgicalProcCode" />
+            <div class="form-group">
+                <label asp-for="RecordType" class="control-label"></label>
+                <input asp-for="RecordType" class="form-control" />
+                <span asp-validation-for="RecordType" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurgName" class="control-label"></label>
+                <input asp-for="SurgName" class="form-control" />
+                <span asp-validation-for="SurgName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurgLaymanDesc" class="control-label"></label>
+                <input asp-for="SurgLaymanDesc" class="form-control" />
+                <span asp-validation-for="SurgLaymanDesc" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EffectiveDate" class="control-label"></label>
+                <input asp-for="EffectiveDate" class="form-control" />
+                <span asp-validation-for="EffectiveDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EndDate" class="control-label"></label>
+                <input asp-for="EndDate" class="form-control" />
+                <span asp-validation-for="EndDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sex" class="control-label"></label>
+                <input asp-for="Sex" class="form-control" />
+                <span asp-validation-for="Sex" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AhsfInd" class="control-label"></label>
+                <input asp-for="AhsfInd" class="form-control" />
+                <span asp-validation-for="AhsfInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SecondOpinionInd" class="control-label"></label>
+                <input asp-for="SecondOpinionInd" class="form-control" />
+                <span asp-validation-for="SecondOpinionInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CosmeticSurgInd" class="control-label"></label>
+                <input asp-for="CosmeticSurgInd" class="form-control" />
+                <span asp-validation-for="CosmeticSurgInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SurgeryInd" class="control-label"></label>
+                <input asp-for="SurgeryInd" class="form-control" />
+                <span asp-validation-for="SurgeryInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinAge" class="control-label"></label>
+                <input asp-for="MinAge" class="form-control" />
+                <span asp-validation-for="MinAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MinAgeInd" class="control-label"></label>
+                <input asp-for="MinAgeInd" class="form-control" />
+                <span asp-validation-for="MinAgeInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxAge" class="control-label"></label>
+                <input asp-for="MaxAge" class="form-control" />
+                <span asp-validation-for="MaxAge" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MaxAgeInd" class="control-label"></label>
+                <input asp-for="MaxAgeInd" class="form-control" />
+                <span asp-validation-for="MaxAgeInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StatusInd" class="control-label"></label>
+                <input asp-for="StatusInd" class="form-control" />
+                <span asp-validation-for="StatusInd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateTs" class="control-label"></label>
+                <input asp-for="CreateTs" class="form-control" />
+                <span asp-validation-for="CreateTs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CreateUserId" class="control-label"></label>
+                <input asp-for="CreateUserId" class="form-control" />
+                <span asp-validation-for="CreateUserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UpdateTs" class="control-label"></label>
+                <input asp-for="UpdateTs" class="form-control" />
+                <span asp-validation-for="UpdateTs" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UpdateUserId" class="control-label"></label>
+                <input asp-for="UpdateUserId" class="form-control" />
+                <span asp-validation-for="UpdateUserId" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

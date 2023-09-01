@@ -1,0 +1,132 @@
+﻿@model ICDWebApi.Models.SurgicalCode
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>SurgicalCode</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.RecordType)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.RecordType)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SurgName)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SurgName)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SurgLaymanDesc)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SurgLaymanDesc)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EffectiveDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EffectiveDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.EndDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.EndDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Sex)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Sex)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AhsfInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.AhsfInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SecondOpinionInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SecondOpinionInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CosmeticSurgInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CosmeticSurgInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.SurgeryInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.SurgeryInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MinAge)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MinAge)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MinAgeInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MinAgeInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaxAge)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaxAge)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.MaxAgeInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.MaxAgeInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.StatusInd)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.StatusInd)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateTs)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateTs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CreateUserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.CreateUserId)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UpdateTs)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UpdateTs)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.UpdateUserId)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.UpdateUserId)
+        </dd>
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
