@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Ashish Project\\ICD\\ICDWebApi\\ICDWebApi.csproj": {}
+    "C:\\Ashish Project\\ICDWebApi\\ICDWebApi.csproj": {}
   },
   "projects": {
-    "C:\\Ashish Project\\ICD\\ICDWebApi\\ICDWebApi.csproj": {
+    "C:\\Ashish Project\\ICDWebApi\\ICDWebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Ashish Project\\ICD\\ICDWebApi\\ICDWebApi.csproj",
+        "projectUniqueName": "C:\\Ashish Project\\ICDWebApi\\ICDWebApi.csproj",
         "projectName": "ICDWebApi",
-        "projectPath": "C:\\Ashish Project\\ICD\\ICDWebApi\\ICDWebApi.csproj",
+        "projectPath": "C:\\Ashish Project\\ICDWebApi\\ICDWebApi.csproj",
         "packagesPath": "C:\\Users\\ashis\\.nuget\\packages\\",
-        "outputPath": "C:\\Ashish Project\\ICD\\ICDWebApi\\obj\\",
+        "outputPath": "C:\\Ashish Project\\ICDWebApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ashis\\AppData\\Roaming\\NuGet\\NuGet.Config",

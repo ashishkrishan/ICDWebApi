@@ -9,33 +9,33 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ICDWebApi
 build_property.RootNamespace = ICDWebApi
-build_property.ProjectDir = C:\Ashish Project\ICD\ICDWebApi\
+build_property.ProjectDir = C:\Ashish Project\ICDWebApi\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Ashish Project\ICD\ICDWebApi
+build_property.MSBuildProjectDirectory = C:\Ashish Project\ICDWebApi
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Ashish Project/ICD/ICDWebApi/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Ashish Project/ICDWebApi/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ashish Project/ICD/ICDWebApi/Views/SurgicalCodes/Create.cshtml]
+[C:/Ashish Project/ICDWebApi/Views/SurgicalCodes/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2ljYWxDb2Rlc1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ashish Project/ICD/ICDWebApi/Views/SurgicalCodes/Delete.cshtml]
+[C:/Ashish Project/ICDWebApi/Views/SurgicalCodes/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2ljYWxDb2Rlc1xEZWxldGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ashish Project/ICD/ICDWebApi/Views/SurgicalCodes/Details.cshtml]
+[C:/Ashish Project/ICDWebApi/Views/SurgicalCodes/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2ljYWxDb2Rlc1xEZXRhaWxzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ashish Project/ICD/ICDWebApi/Views/SurgicalCodes/Edit.cshtml]
+[C:/Ashish Project/ICDWebApi/Views/SurgicalCodes/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2ljYWxDb2Rlc1xFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Ashish Project/ICD/ICDWebApi/Views/SurgicalCodes/Index.cshtml]
+[C:/Ashish Project/ICDWebApi/Views/SurgicalCodes/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3VyZ2ljYWxDb2Rlc1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -20,14 +20,15 @@ namespace ICDWebApi.Controllers
         }
 
         // GET api/<SurgicalCodeController>/5
-        [HttpGet("{id}")]
-        public IEnumerable<SurgicalCode> Get(string id)
+        [HttpGet("{icdVersion},{surgicalCode}")]
+        public IEnumerable<SurgicalCode> Get(string icdVersion, string surgicalCode)
         {
             using (var context = new IcdContext())
             {
-                return context.SurgicalCodes.Where(icd => icd.IcdVersion == id).ToList();
+                return context.SurgicalCodes.Where(icd => icd.IcdVersion == icdVersion && icd.SurgicalProcCode == surgicalCode).ToList();
             }
         }
+
 
         // POST api/<SurgicalCodeController>
         [HttpPost]
